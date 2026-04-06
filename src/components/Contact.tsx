@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -17,41 +17,7 @@ const Contact = () => {
             <h4>Phone</h4>
             <p>7327070843</p>
           </div>
-          <div className="contact-box">
-            <h4>Social</h4>
-            <a
-              href="https://github.com/kausik1314"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/skkausik/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://leetcode.com/u/Kausik_05/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              LeetCode <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/kausik.05_/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
-          </div>
+
           <div className="contact-box">
             <h2>
               Designed and Developed <br /> by <span>Sk Kausik Azad Hussain</span>
